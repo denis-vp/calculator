@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-</head>
-<body>
-    <h1>Calculator</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="display">
+        <div id="output">|</div>
+      </div>
+      
+      <!-- <div id="drop-down-menu">
+        <div id="drop-down-one">
+            <button id="button-sqrt" type="button">sqrt</button>
+            <button id="button-pi" type="button">pi</button>
+            <button id="button-power" type="button">^</button>
+            <button id="button-factorial" type="button">!</button>
+            <button id="button-extend-menu" type="button">O</button>
+        </div>
+        <div id="drop-down-two">
+            <button id="button-DEG" type="button">DEG</button>
+            <button id="button-sin" type="button">sin</button>
+            <button id="button-cos" type="button">cos</button>
+            <button id="button-tan" type="button">tan</button>
+        </div>
+        <div id="drop-down-three">
+            <button id="button-INV" type="button">INV</button>
+            <button id="button-e" type="button">e</button>
+            <button id="button-ln" type="button">ln</button>
+            <button id="button-log" type="button">log</button>
+        </div>
+      </div> -->
+      
+      <div id="buttons-container">
+        <div id="row-one" class="row">
+          <button id="button-AC" type="button">AC</button>
+          <button id="button-AC" type="button">C</button>
+          <button id="button-percent" type="button">%</button>
+          <button id="button-divide" type="button">/</button>
+        </div>
+        <div id="row-two" class="row">
+          <button id="button-7" type="button">7</button>
+          <button id="button-8" type="button">8</button>
+          <button id="button-9" type="button">9</button>
+          <button id="button-multiply" type="button">X</button>
+        </div>
+        <div id="row-three" class="row">
+          <button id="button-4" type="button">4</button>
+          <button id="button-5" type="button">5</button>
+          <button id="button-6" type="button">6</button>
+          <button id="button-minus" type="button">-</button>
+        </div>
+        <div id="row-four" class="row">
+          <button id="button-1" type="button">1</button>
+          <button id="button-2" type="button">2</button>
+          <button id="button-3" type="button">3</button>
+          <button id="button-plus" type="button">+</button>
+        </div>
+        <div id="row-five" class="row">
+          <button id="button-0" type="button">0</button>
+          <button id="button-." type="button">.</button>
+          <button id="button-backspace" type="button">Clear</button>
+          <button id="button-equals" type="button">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
